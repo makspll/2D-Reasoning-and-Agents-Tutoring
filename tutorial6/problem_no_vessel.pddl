@@ -19,7 +19,7 @@
         (empty T) ; note need to specify T as empty otherwise we cannot pour into it
     )
     
-    (:goal (and
+    (:goal (and ; absurd goal, works iff T is empty 
         (water W)
         (teabag T)
         (cup C)
