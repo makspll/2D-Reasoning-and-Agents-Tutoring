@@ -2,9 +2,6 @@
 
     (:requirements :adl)
         
-    (:types ;todo: enumerate types and their hierarchy here, e.g. car truck bus - vehicle
-        
-    )
 
     (:predicates
         (in ?x ?y)

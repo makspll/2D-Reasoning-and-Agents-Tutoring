@@ -1,17 +1,13 @@
 (define (domain tea)
 
     (:requirements :adl)
-        
-    (:types ;todo: enumerate types and their hierarchy here, e.g. car truck bus - vehicle
-        
-    )
-
+    
     (:predicates
         (in ?x ?y)
         (hot ?x)
         (empty ?x)
 
-        (water ?x)
+     (water ?x)
         (bottle ?x)
         (kettle ?x)
         (cup ?x)
